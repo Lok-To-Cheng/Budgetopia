@@ -1,0 +1,134 @@
+
+body {
+    background-image: url("images/bg.jpeg");
+    background-repeat: no-repeat ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+}
+
+.container {
+    background-color: #c4bc93;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937; 
+}
+
+#budget-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#budget-form input[type="text"],
+#budget-form input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #1f2937;
+}
+
+#add-transaction,#add-category {
+    background-color: #3882f6;
+    color: #e5e7eb; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#transaction-table {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #1f2937;
+}
+
+#transaction-rows tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#transaction-rows tr:nth-child(even) {
+    background-color: #fff;
+}
+
+#budget-warning {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#warning-message {
+    color: red;
+}
+#category-filters {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#category-filter {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #1f2937; 
+}
+
+.buttons, .buttons2{
+    background-color: #3882f6;
+    color: #e5e7eb; 
+    padding: 8px 10px 8px 10px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons2 {
+    border: 1px solid #e5e7eb;
+}
+#rewards-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#rewards-amount {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bold;
+}
+
+#back-to-budget {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#back-to-budget a {
+    text-decoration: none;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
